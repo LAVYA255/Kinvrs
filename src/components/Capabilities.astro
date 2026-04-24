@@ -1,0 +1,101 @@
+---
+import Counter from './react/Counter.tsx';
+---
+
+<section id="capabilities" class="relative py-32 overflow-hidden">
+  <div class="absolute inset-0 bg-kinvrs-gradient opacity-95"></div>
+  <div class="absolute inset-0 bg-grid bg-grid-fade"></div>
+
+  <div class="container-k relative">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-16">
+      <div class="max-w-2xl">
+        <div class="chip mb-6">
+          <span class="w-1.5 h-1.5 rounded-full bg-cyan2"></span>
+          Capabilities
+        </div>
+        <h2 class="heading-lg text-white">
+          Engineered for <span class="text-gradient">scale,</span> shaped for <span class="text-gradient">craft.</span>
+        </h2>
+      </div>
+      <p class="text-white/70 max-w-md font-light">
+        A full-stack foundation — from the metal up to the moment of interaction.
+      </p>
+    </div>
+
+    {/* Bento */}
+    <div class="grid md:grid-cols-6 md:grid-rows-3 gap-4 auto-rows-[160px]" data-reveal-stagger>
+      {/* Big: Cloud backbone */}
+      <div class="md:col-span-3 md:row-span-2 glass p-8 relative overflow-hidden group hover:border-white/25 transition">
+        <div class="absolute -top-20 -right-20 w-48 h-48 bg-aqua/25 blur-2xl rounded-full"></div>
+        <div class="relative h-full flex flex-col justify-between">
+          <div>
+            <div class="text-xs uppercase tracking-[0.3em] text-aqua mb-4">Cloud Backbone</div>
+            <h3 class="text-3xl md:text-4xl font-display font-bold text-white leading-tight max-w-md">
+              Multi-region, auto-scaling infrastructure — built for India, ready for the world.
+            </h3>
+          </div>
+          <div class="flex items-center gap-3 pt-8">
+            <div class="flex -space-x-2">
+              <div class="w-8 h-8 rounded-full bg-electric border-2 border-rich"></div>
+              <div class="w-8 h-8 rounded-full bg-magenta border-2 border-rich"></div>
+              <div class="w-8 h-8 rounded-full bg-aqua border-2 border-rich"></div>
+            </div>
+            <span class="text-sm text-white/60">Regions in 3 continents</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Uptime */}
+      <div class="md:col-span-3 glass p-8 relative overflow-hidden group hover:border-white/25 transition">
+        <div class="text-xs uppercase tracking-[0.3em] text-gold mb-3">Reliability</div>
+        <div class="flex items-end gap-3">
+          <div class="text-6xl font-display font-bold text-gradient">
+            <Counter client:visible to={99.99} decimals={2} suffix="%" />
+          </div>
+          <div class="text-white/60 pb-2">target uptime</div>
+        </div>
+        <div class="mt-4 h-1.5 bg-white/10 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-aqua to-gold" style="width:99.99%"></div>
+        </div>
+      </div>
+
+      {/* Security */}
+      <div class="md:col-span-2 glass p-6 relative group hover:border-white/25 transition">
+        <svg class="w-8 h-8 text-coral mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="text-white font-display font-bold text-lg">Compliance-first</div>
+        <div class="text-xs text-white/60 mt-1">DPDP, ISO 27001 ready</div>
+      </div>
+
+      {/* Latency */}
+      <div class="md:col-span-2 glass p-6 relative group hover:border-white/25 transition">
+        <div class="text-xs uppercase tracking-[0.3em] text-cyan2 mb-2">Edge latency</div>
+        <div class="text-4xl font-display font-bold text-white">&lt;<Counter client:visible to={40} suffix="ms" /></div>
+        <div class="text-xs text-white/50 mt-1">Tier-1 Indian cities</div>
+      </div>
+
+      {/* Throughput */}
+      <div class="md:col-span-2 glass p-6 relative group hover:border-white/25 transition">
+        <div class="text-xs uppercase tracking-[0.3em] text-magenta mb-2">Throughput</div>
+        <div class="text-4xl font-display font-bold text-white"><Counter client:visible to={1} suffix="M+" /></div>
+        <div class="text-xs text-white/50 mt-1">concurrent sessions</div>
+      </div>
+
+      {/* Observability long */}
+      <div class="md:col-span-6 glass p-8 relative overflow-hidden group hover:border-white/25 transition">
+        <div class="flex flex-wrap items-center justify-between gap-6">
+          <div>
+            <div class="text-xs uppercase tracking-[0.3em] text-aqua mb-3">Observability & Trust</div>
+            <div class="text-2xl md:text-3xl font-display font-bold text-white max-w-xl">Real-time telemetry, tracing and anomaly detection across every layer.</div>
+          </div>
+          <div class="flex gap-2">
+            {Array.from({length:24}).map((_, i) => (
+              <span class="w-1.5 h-10 rounded-full" style={`background: linear-gradient(180deg, rgba(97,206,160,${0.2 + (i%6)*0.13}), rgba(97,206,160,0.05)); height: ${20 + ((i*7)%28)}px`}></span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

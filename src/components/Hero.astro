@@ -1,0 +1,103 @@
+---
+import AnimatedHero from './react/AnimatedHero.tsx';
+import MagneticButton from './react/MagneticButton.tsx';
+---
+
+<section id="hero" class="relative h-[100svh] flex flex-col overflow-hidden noise">
+  {/* Layered background */}
+  <div class="absolute inset-0 bg-rich"></div>
+  <div
+    class="absolute inset-0 opacity-95"
+    style="background: radial-gradient(1200px 900px at 85% 15%, #4207C5 0%, transparent 55%), radial-gradient(900px 700px at 0% 100%, #1a0768 0%, transparent 60%);"
+  ></div>
+
+  {/* Grid */}
+  <div class="absolute inset-0 bg-grid bg-grid-fade"></div>
+
+  {/* Animated island: glows + fixed K mount (fixed-position for fluent outro) */}
+  <AnimatedHero client:load />
+
+  {/* Whiteout overlay — fades to full white as the K hits full size */}
+  <div class="hero-whiteout fixed inset-0 bg-white pointer-events-none z-30" style="opacity:0; will-change:opacity;" aria-hidden="true"></div>
+
+  {/* Puzzle blocks — slide in from all sides to fill gaps around the growing K */}
+  <div class="hero-puzzle fixed inset-0 pointer-events-none z-[29]" aria-hidden="true" style="opacity:0;">
+    <div class="absolute inset-0 grid grid-cols-4 grid-rows-3">
+      {Array.from({ length: 12 }).map((_, i) => {
+        const row = Math.floor(i / 4);
+        const col = i % 4;
+        // Determine nearest edge for entrance direction
+        let dir = '';
+        if (row === 0) dir = 'from-top';
+        else if (row === 2) dir = 'from-bottom';
+        else if (col === 0) dir = 'from-left';
+        else if (col === 3) dir = 'from-right';
+        else dir = row <= 1 ? 'from-top' : 'from-bottom';
+        return <div class={`hero-puzzle-block ${dir} bg-white will-change-transform`} data-row={row} data-col={col}></div>;
+      })}
+    </div>
+  </div>
+
+  {/* Accent squares (brand pattern, left column only — right is reserved for K) */}
+  <div class="hidden md:block absolute top-40 left-[6%] w-6 h-6 bg-coral rotate-45"></div>
+  <div class="hidden md:block absolute bottom-[28%] left-[10%] w-4 h-4 bg-aqua"></div>
+
+  <div class="container-k relative z-20 w-full flex-1 flex items-center pt-24 pb-4 md:pt-28 md:pb-6">
+    <div class="grid md:grid-cols-12 gap-6 md:gap-10 items-center w-full">
+      <div class="md:col-span-7">
+        <div class="chip mb-4 md:mb-6">
+          <span class="w-1.5 h-1.5 rounded-full bg-aqua"></span>
+          A Krafton India Brand
+        </div>
+
+        <h1 class="heading-xl text-white mb-5 md:mb-7">
+          <span class="block overflow-hidden"><span class="hero-line inline-block">Designed to</span></span>
+          <span class="block overflow-hidden"><span class="hero-line inline-block text-gradient">connect.</span></span>
+          <span class="block overflow-hidden"><span class="hero-line inline-block">Built to <span class="text-gradient">create.</span></span></span>
+        </h1>
+
+        <div class="max-w-xl space-y-3 md:space-y-4 mb-5 md:mb-7">
+          <p class="text-sm md:text-lg text-white/70 leading-relaxed font-light">
+            Kinvrs <span class="text-white/90 italic">(Kin·verse)</span> turns complex infrastructure
+            into something intuitive, reliable and full of creative potential —
+            building the core technology layer behind India's most dynamic digital experiences.
+          </p>
+          <p class="hidden md:block text-sm text-white/50 border-l-2 border-electric pl-4 italic">
+            "Boldly crafting tech infrastructure that powers play, creation, connection, and beyond."
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-3">
+          <MagneticButton client:load href="#about" variant="primary">
+            Explore the Platform
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M13 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </MagneticButton>
+          <MagneticButton client:load href="#vision" variant="ghost">Our Vision</MagneticButton>
+        </div>
+      </div>
+
+      {/* Right column reserved for the K (rendered via AnimatedHero as fixed) */}
+      <div class="hidden md:block md:col-span-5 aspect-square"></div>
+    </div>
+  </div>
+
+  {/* Stats row — inline flow, not absolute, so hero fits in one viewport */}
+  <div class="relative z-10 border-t border-white/10 bg-rich/90 shrink-0">
+    <div class="container-k grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10" data-reveal-stagger>
+      {[
+        ['Resilient', 'engineering'],
+        ['Creative', 'potential'],
+        ['Regulatory', 'readiness'],
+        ['Long-term', 'commitment'],
+      ].map(([k, v], i) => (
+        <div class="py-3 md:py-5 px-3 md:px-6 first:pl-0">
+          <div class="text-[10px] md:text-xs font-mono text-white/30 mb-0.5">0{i+1}</div>
+          <div class="text-sm md:text-lg font-display font-bold text-white leading-tight">{k}</div>
+          <div class="text-[9px] md:text-xs uppercase tracking-[0.2em] text-white/40">{v}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

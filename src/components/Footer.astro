@@ -1,0 +1,42 @@
+---
+import Logo from './Logo.astro';
+---
+
+<footer class="relative bg-rich border-t border-white/10 py-16">
+  <div class="container-k">
+    <div class="grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-5">
+        <Logo variant="white" class="h-8 w-auto mb-6" />
+        <p class="text-white/60 max-w-sm leading-relaxed">
+          A Krafton India brand. Boldly crafting tech infrastructure
+          that powers play, creation, connection, and beyond.
+        </p>
+      </div>
+
+      <div class="md:col-span-3">
+        <div class="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">Navigate</div>
+        <ul class="space-y-3 text-white/70">
+          <li><a href="#about" class="hover:text-white">About</a></li>
+          <li><a href="#platform" class="hover:text-white">Platform</a></li>
+          <li><a href="#vision" class="hover:text-white">Vision</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-4">
+        <div class="text-xs uppercase tracking-[0.25em] text-white/40 mb-4">Office</div>
+        <address class="not-italic text-white/70 leading-relaxed">
+          Office No: 9, Mountain Bridge CHS,<br/>
+          Powai, JVLR, Mumbai – 400072<br/>
+          <a href="tel:+912225737424" class="hover:text-white">022 2573 7424</a><br/>
+          <a href="mailto:info@kinvrs.com" class="hover:text-white">info@kinvrs.com</a>
+        </address>
+      </div>
+    </div>
+
+    <div class="mt-16 pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-sm text-white/40">
+      <div>© {new Date().getFullYear()} Kinvrs. All rights reserved.</div>
+      <div class="font-mono text-xs">kin·verse — kin + universe</div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,88 @@
+---
+const solutions = [
+  {
+    kicker: 'Gaming & Play',
+    title: 'Infrastructure for interactive worlds',
+    body: 'High-throughput, low-latency backbones for real-time gaming platforms, live events and competitive ecosystems.',
+    accent: 'magenta',
+    points: ['Real-time multiplayer', 'Matchmaking at scale', 'Anti-cheat & trust'],
+  },
+  {
+    kicker: 'Creators & Communities',
+    title: 'Platforms that bring people together',
+    body: 'Creator tooling, social primitives and identity systems that let communities form, grow and thrive.',
+    accent: 'aqua',
+    points: ['Identity & profiles', 'Social graph', 'Creator monetisation'],
+  },
+  {
+    kicker: 'Content & Media',
+    title: 'Delivery engines for dynamic media',
+    body: 'Streaming, storage and content pipelines engineered for India-scale traffic and multi-format delivery.',
+    accent: 'gold',
+    points: ['Global edge CDN', 'Adaptive streaming', 'Live moderation'],
+  },
+  {
+    kicker: 'Payments & Commerce',
+    title: 'Regulatory-ready commerce rails',
+    body: 'Purpose-built payment, wallet and commerce layers that meet India\'s compliance bar out of the box.',
+    accent: 'coral',
+    points: ['UPI & cards', 'Wallets & ledgers', 'KYC & compliance'],
+  },
+];
+
+const accentMap = {
+  magenta: { dot: 'bg-magenta', ring: 'ring-magenta/40', text: 'text-magenta' },
+  aqua:    { dot: 'bg-aqua',    ring: 'ring-aqua/40',    text: 'text-aqua' },
+  gold:    { dot: 'bg-gold',    ring: 'ring-gold/40',    text: 'text-gold' },
+  coral:   { dot: 'bg-coral',   ring: 'ring-coral/40',   text: 'text-coral' },
+};
+---
+
+<section id="solutions" class="relative py-32 bg-rich overflow-hidden">
+  <div class="absolute inset-0 bg-grid bg-grid-fade opacity-40"></div>
+  <div class="container-k relative">
+    <div class="max-w-3xl mb-20">
+      <div class="chip mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-coral"></span>
+        Solutions
+      </div>
+      <h2 class="heading-lg text-white mb-6">
+        The square that <span class="text-gradient">connects worlds.</span>
+      </h2>
+      <p class="text-xl text-white/70 font-light leading-relaxed">
+        Four verticals. One infrastructure layer. Kinvrs powers the platforms
+        shaping how India plays, creates and connects.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6" data-reveal-stagger>
+      {solutions.map((s, i) => {
+        const a = accentMap[s.accent];
+        return (
+        <article class="group glass p-8 md:p-10 relative overflow-hidden hover:border-white/25 transition-all duration-500 hover:-translate-y-1">
+          <div class={`absolute -top-24 -right-24 w-48 h-48 ${a.dot} opacity-10 blur-2xl group-hover:opacity-25 transition duration-700`}></div>
+
+          <div class="flex items-center justify-between mb-8">
+            <div class={`text-xs uppercase tracking-[0.3em] ${a.text} font-semibold`}>{s.kicker}</div>
+            <div class="text-white/30 font-mono text-sm">0{i+1} / 04</div>
+          </div>
+
+          <h3 class="text-2xl md:text-3xl font-display font-bold text-white mb-4 leading-tight">{s.title}</h3>
+          <p class="text-white/70 leading-relaxed mb-8">{s.body}</p>
+
+          <ul class="space-y-2.5">
+            {s.points.map((p) => (
+              <li class="flex items-center gap-3 text-white/80">
+                <span class={`w-1.5 h-1.5 ${a.dot}`}></span>
+                <span class="text-sm">{p}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div class={`absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent`}></div>
+        </article>
+        );
+      })}
+    </div>
+  </div>
+</section>

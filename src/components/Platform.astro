@@ -1,0 +1,65 @@
+---
+const pillars = [
+  {
+    title: 'Resilient Engineering',
+    body: 'Dependable building blocks engineered for scale — platforms that stay rock-solid under the weight of millions of interactions.',
+    color: 'from-electric to-magenta',
+    accent: 'bg-magenta',
+    icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z',
+  },
+  {
+    title: 'Creative Potential',
+    body: 'Systems that invite exploration — flexible tooling and APIs that let creators and teams push into new territories with confidence.',
+    color: 'from-aqua to-cyan2',
+    accent: 'bg-aqua',
+    icon: 'M9 11H5a2 2 0 0 0-2 2v7h18v-7a2 2 0 0 0-2-2h-4m-4 0V3a2 2 0 1 1 4 0v8m-4 0h4',
+  },
+  {
+    title: 'Long-term Resilience',
+    body: 'Regulatory-ready and future-proof — infrastructure built to evolve alongside tomorrow\'s ideas without breaking today\'s experiences.',
+    color: 'from-gold to-coral',
+    accent: 'bg-gold',
+    icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+  },
+];
+---
+
+<section id="platform" class="relative py-32 overflow-hidden">
+  <div class="absolute inset-0 bg-kinvrs-gradient opacity-90"></div>
+  <div class="absolute inset-0 bg-grid bg-grid-fade"></div>
+
+  <div class="container-k relative">
+    <div class="max-w-3xl mb-20">
+      <div class="chip mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-aqua"></span>
+        The Platform
+      </div>
+      <h2 class="heading-lg text-white mb-6">
+        Purposeful, scalable,<br/>
+        <span class="text-gradient">dependable</span> building blocks.
+      </h2>
+      <p class="text-xl text-white/70 font-light leading-relaxed">
+        Unlike siloed or legacy platforms that restrict growth, Kinvrs provides
+        the foundation behind the country's emerging digital landscape.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      {pillars.map((p, i) => (
+        <div class="group relative glass p-8 overflow-hidden hover:border-white/30 transition-all duration-500 hover:-translate-y-2">
+          <div class={`absolute -top-20 -right-20 w-40 h-40 bg-gradient-to-br ${p.color} opacity-20 blur-2xl group-hover:opacity-40 transition`}></div>
+          <div class={`absolute top-8 right-8 w-3 h-3 ${p.accent}`}></div>
+
+          <div class="relative">
+            <div class="text-white/40 text-sm font-mono mb-6">0{i+1}</div>
+            <svg class="w-10 h-10 text-white mb-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d={p.icon} stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h3 class="text-2xl font-display font-bold text-white mb-3">{p.title}</h3>
+            <p class="text-white/70 leading-relaxed">{p.body}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

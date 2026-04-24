@@ -1,0 +1,640 @@
+Brand Guidelines
+CONTENT                                Kinvrs Brand
+                                       Guidelines 2025
+
+01  Brand                              02  Brand              03  Brand
+    Introduction                           Identity               Colours
+
+    About Kinvrs                           Logo Mark              Primary Colours
+    Brand Vision                           Clear Space            Secondary Colours
+    Brand Mission                          Logo Reduction         Brand Gradients
+    Brand Positioning                      Do's & Don'ts
+    Brand Personality
+
+04 Brand                               05  Brand              06  Brand
+               Typography                  Visualisation          Application
+
+                     Primary Typeface      Brand Imagery          Brand Collaterals
+                     Print Usage           Brand Iconography
+                     Digital Usage
+01 Brand
+            Introduction
+Kinvrs Brand Manual  Brand Introduction                                                           04
+
+About                Across today's digital world, ideas move fast and possibilities expand by
+Kinvrs               the minute. Creators, teams and communities look for spaces where
+                     imagination can grow and technology quietly supports their ambition.
+
+                     This is where Kinvrs steps in, turning complex infrastructure into
+                     something intuitive, reliable and full of creative potential. It builds the
+                     core technology layer behind India's most dynamic digital experiences,
+                     enabling platforms to evolve, innovate and bring people together in
+                     new ways.
+
+                     Here, exploration feels natural, collaboration feels effortless, and every
+                     bold idea finds room to grow.
+Kinvrs Brand Manual  Brand Introduction                                                  05
+
+Brand                To build future-ready technology infrastructure that unlocks
+Vision               new possibilities in play, creation and connection for the next
+
+                     generation of digital ecosystems.
+
+Brand                To empower creators, communities, and partners with systems
+Mission              that combine reliable engineering, creative potential, and
+                     long-term resilience.
+                     We build platforms that enable exploration, support bold thinking,
+
+                     and make innovation accessible across every layer of the
+
+                     digital world.
+Kinvrs Brand Manual  Brand Introduction                                                     06
+
+Brand                "Boldly crafting tech infrastructure that powers play,
+Positioning          creation, connection, and beyond."
+
+                     Expanded Positioning
+
+                     As a future-facing tech infrastructure brand from Krafton India,
+                     Kinvrs serves as the foundation behind the country's emerging
+                     digital landscape. It offers systems built with resilience, precision
+                     and bold imagination, enabling new kinds of interactions,
+                     communities and experiences to take shape.
+
+                     Unlike siloed or legacy platforms that restrict growth, Kinvrs
+                     provides purposeful, scalable and dependable building blocks that
+                     help teams push into new territories with confidence.
+                     With deep expertise, regulatory readiness and long-term
+                     commitment, Kinvrs supports continuous evolution, becoming the
+                     backbone that helps tomorrow's ideas come to life.
+Kinvrs Brand Manual  Brand Introduction                                                     07
+
+Brand                Archetype:
+Personality          The Creative Voyager
+                     A blend of Creator and Explorer.
+
+                     How the name supports the archetype:
+                     Kinvrs
+                     Phonetics: Kin­verse
+                     Etymology: Derived from "Kin" and "Universe," symbolising a
+                     connected, evolving ecosystem that embraces creativity and discovery.
+
+                     Personality traits:
+                     Imaginative and future-focused.
+                     Curious and exploratory.
+                     Craft-driven and precise.
+                     Bold yet grounded.
+                     Energised by new possibilities.
+
+                     How the brand speaks:
+                     Vision-led and inspiring.
+                     Clear, confident and purposeful.
+                     Technically sound yet creatively expressive.
+                     Curious in tone, expansive in outlook.
+02 Brand
+             Identity
+Kinvrs Brand Manual                  Brand Identity  09
+
+2.1 Logo Mark
+
+The Kinvrs logo integrates the bold
+`K' and dynamic shapes to create a
+striking, modern design.
+
+The geometric elements convey
+strength and precision, while the
+gradient flowing from dark purple
+to vibrant purple symbolises
+energy and transformation.
+
+The angular forms reflect
+innovation and forward movement,
+making the logo an emblem of
+creativity and progress.
+
+The use of the purple gradient
+adds a premium and futuristic feel,
+perfectly aligning with Kinvrs'
+vision of cutting-edge, impactful
+technology.
+Kinvrs Brand Manual                  Brand Identity  10
+
+2.1 Logo Unit
+
+The Kinvrs identity combines a
+powerful symbol and modern
+wordmark to establish a dynamic
+and forward-thinking brand
+presence.
+
+The geometric "K" with a flowing
+gradient reflects innovation,
+energy, and progress, while the
+sharp, bold lines of the wordmark
+emphasise strength and clarity.
+
+The sleek design symbolises Kinvrs'
+cutting-edge approach to
+technology and creativity.
+
+Together, the logo and typeface
+convey the brand's commitment to
+modernity, precision, and
+transformation, resonating with an
+audience that values impactful,
+visionary solutions.
+Kinvrs Brand Manual                  Brand Identity                                                     11
+
+2.3 Logo                             X                  0.5x           0.5x       X         X
+Clear Spacing                                                                               X
+                                                     X                             X
+A safe space must be maintained                                              Logo Unit
+on all four sides of the logo when                      0.5x           0.5x  Clear Spacing
+used in collateral.
+
+The X-height of the symbol has
+been used to measure and
+maintain the clear space across all
+collaterals.
+
+Clear space ensures that the logo
+remains distinct and recognisable.
+It prevents visual clutter or
+interference from other elements,
+allowing the logo to stand out
+clearly.
+
+                                                        Symbol
+                                                        Clear Spacing
+Kinvrs Brand Manual                     Brand Identity  12
+
+2.4 Logo                                100px
+Reduction                               80px
+                                        60px
+For digital use, the logo can be        40px*
+reduced to a minimum height of
+15px and should not be scaled
+below this size. When the logo size
+falls below 40px, only the symbol
+should be used.
+
+For print, logo reduction should be
+determined by readability and clear
+visibility. The required logo size for
+digital print, screen print,
+embossing, engraving, or
+laser-cutting will depend on
+readability and the type of surface
+or material.
+
+                                        30px*
+                                        15px*
+Kinvrs Brand Manual              Brand I0d1entity  13
+
+2.5 Do's of Logo
+
+The correct use of the identity
+
+will ensure consistency of the
+
+brand presence. Here are         01
+
+some examples of correct logo
+
+usage.
+
+Example explained:
+
+01- Primary usage for all
+applications: white logo on a
+blue gradient background.
+
+02- Blue gradient symbol logo
+on white or light backgrounds.
+
+                                 02
+Kinvrs Brand Manual                  Brand Identity  14
+
+2.6 Don'ts of Logo
+
+In order to keep the brand identity
+consistent throughout
+communications, there are a few
+set parameters which need to be
+kept in mind.
+
+Here are some examples of
+incorrect logo usage that should
+not be followed in branding
+practices.
+Kinvrs Brand Manual                  Brand Identity  15
+
+2.6 Don'ts of Logo
+
+In order to keep the brand identity
+consistent throughout
+communications, there are a few
+set parameters which need to be
+kept in mind.
+
+Here are some examples of
+incorrect logo usage that should
+not be followed in branding
+practices.
+Kinvrs Brand Manual                  Brand Identity  16
+
+2.6 Don'ts of Logo
+
+In order to keep the brand identity
+consistent throughout
+communications, there are a few
+set parameters which need to be
+kept in mind.
+
+Here are some examples of
+incorrect logo usage that should
+not be followed in branding
+practices.
+Kinvrs Brand Manual                  Brand Identity  17
+
+2.7 App Icon
+
+This construction grid ensures that
+all app icons designed for the
+brand are consistent,
+well-proportioned, and visually
+appealing.
+
+The brand icon has been placed
+precisely centred so that it looks
+balanced.
+03 Brand
+             Colours
+Kinvrs Brand Manual                   Brand Colours                                                                          19
+
+3.1 Primary                           Kinvrs Electric Purple                        Kinvrs Rich Black
+Colours
+                                      HEX: #4207C5                                  HEX: #040223
+The Kinvrs primary palette is bold,   PANTONE 2725 C                                PANTONE 19-3921 TCX
+modern, and dynamic, combining        RGB: (66, 7, 197)                             RGB: (4, 2, 35)
+vibrant digital shades with refined,  CMYK: (67, 96, 0, 23)                         CMYK: (88, 94, 0, 86)
+contrasting neutrals.
+                                      Kinvrs Storm Blue       Kinvrs White
+Kinvrs Electric Purple grabs
+attention with its vibrant energy,    HEX: #26374A            Hex: #FFFFFF
+perfect for creative and bold         PANTONE 19-4024 TCX     PANTONE 7436 C
+expressions.                          RGB: (38, 55, 74)       RGB: (255, 255, 255)
+                                      CMYK: (48, 26, 0, 71)   CMYK: (0, 0, 0, 0)
+Kinvrs Storm Blue adds depth and
+sophistication, offering a
+grounding, stable tone that
+conveys trust and professionalism.
+
+Kinvrs White balances the palette,
+providing clarity and space while
+keeping the design fresh, crisp,
+and contemporary.
+
+Kinvrs Rich Black offers a rich and
+deep foundation, grounding the
+palette with an elegant, high-end
+touch.
+                                      Brand Colours                                                  20
+
+3.2 Secondary                         #61cea0        #87eafa  #e8462a  #f1c44c  #e5544e  #df79e3
+Colours
+
+The Kinvrs secondary palette
+features vibrant and balanced
+colours that enhance the brand's
+energy and identity:
+
+Aquamarine evokes tranquility,
+trust, and innovation with its cool
+blue-green tones. Light Cyan
+symbolises peace, clarity, and
+communication, creating a calming
+atmosphere.
+
+Coral is warm and energising,
+representing creativity, enthusiasm,
+and vitality. Golden Yellow brings
+optimism, confidence, and
+positivity, adding warmth and
+approachability.
+
+Pale Pink offers softness, serenity,
+and elegance. Magenta stands out
+with bold creativity, passion, and
+modern energy.
+
+Together, these colours create a
+dynamic and visually appealing
+palette, embodying the brand's
+innovative spirit.
+Kinvrs Brand Manual                    Brand Colours                  21
+
+3.3 Brand Gradient                     #040223        #4207c5
+
+The Kinvrs brand gradient flows
+from a deep, dark purple to a
+vibrant, energetic purple hue,
+symbolising a harmonious blend of
+innovation, mystery, and creativity.
+Starting with the deep and
+grounded tone of Dark Purple
+(#040223), it transitions into a bold
+and dynamic shade of Purple
+(#4207c5).
+
+This gradient reflects the brand's
+forward-thinking nature, with the
+depth of the darker shade
+symbolising strength and stability,
+while the vibrant purple infuses a
+sense of excitement and
+modernity.
+
+The smooth transition between
+these shades creates a sense of
+continuity and energy, making the
+gradient perfect for backgrounds,
+overlays, and transitions, ensuring
+that the Kinvrs brand always feels
+cutting-edge, confident, and
+visually captivating.
+04 Brand
+              Typography
+Kinvrs Brand Manual                Brand Typography                                                                             23
+
+4.1 Primary                            Gemunu Libre       @2B$K
+Typeface                                                  8RD9H
+                                           Gemunu Libre   G5&# ?
+Gemunu Libre                               Gemunu Libre
+                                           Gemunu Libre  Lorem ipsum dolor sit amet, consectetuer
+Gemunu Libre offers a modern,              Gemunu Libre  adipiscing elit, sed diam nonummy nibh euismod
+clean design that enhances                 Gemunu Libre  tincidunt ut laoreet dolore magna aliquam erat
+readability while maintaining a            Gemunu Libre  volutpat. Ut wisi enim ad minim veniam, quis
+sense of warmth and                        Gemunu Libre  nostrud exerci
+friendliness.
+
+Whether used for long body
+text or bold headlines, its
+geometric sans-serif style
+ensures clarity and accessibility
+across a wide range of design
+applications.
+
+Its smooth curves and balanced
+proportions make it an ideal
+choice for both digital and print
+media. With multilingual
+support, including Sinhala and
+a wide range of Latin
+characters, Gemunu Libre is
+versatile enough for global
+projects, allowing designers to
+create visually appealing and
+functional layouts.
+Kinvrs Brand Manual                   Brand Typography                                                                                            24
+
+4.2 Print                             Title                  Lorem ipsum dolor sit amet
+Typeface
+                                      Gemunu Libre Semibold  Lorem ipsum dolor sit amet
+Gemunu Libre serves as the
+primary typeface, offering a          48 - 72 pt             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+modern, geometric sans-serif                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-
+design that blends simplicity with a  Sub Title              trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+friendly, approachable feel.                                 aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                      Gemunu Libre Semibold  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+Its clean lines and balanced                                 officia deserunt mollit anim id est laborum.
+proportions provide a                 24 - 40 pt
+contemporary look, making it                                 Lorem ipsum dolor sit amet
+highly versatile for both headlines   Body Copy
+and body text.
+                                      Gemunu Libre Regular
+The font's smooth curves and clear
+structure add a touch of warmth       10 - 18 pt
+while ensuring excellent
+readability, making it perfect for a  Highlighter
+wide range of design applications.
+                                      Gemunu Libre
+
+                                      18 - 36 pt
+Kinvrs Brand Manual                   Brand Typography                                                                                           25
+
+4.3 Digital                           Title                 Lorem ipsum dolor sit amet
+Typeface
+                                      Gemunu Libre Bold     Lorem ipsum dolor sit amet
+Gemunu Libre serves as the
+primary typeface, offering a          60 - 72 pt            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+modern, geometric sans-serif                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+design that blends simplicity with a  Sub Title             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+friendly, approachable feel.                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                      Gemunu Libre Medium   velit esse cillum dolore eu fugiat nulla pariatur.
+Its clean lines and balanced
+proportions provide a                 36 - 48 pt            Lorem ipsum dolor sit amet
+contemporary look, making it
+highly versatile for both headlines   Body Copy
+and body text.
+                                      Gemunu Libre Regular
+The font's smooth curves and clear
+structure add a touch of warmth       18 ­ 32 pt
+while ensuring excellent
+readability, making it perfect for a  Highlighter
+wide range of design applications.
+                                      Gemunu Libre
+
+                                      32 - 36 pt
+05 Brand
+             Visualisation
+Kinvrs Brand Manual                    Brand Visualisation  27
+
+5.1 Brand
+Iconography
+
+This is a modern and minimalist
+icon set featuring clean, thin-line
+designs.
+
+It includes icons for media
+controls, navigation,
+communication, user profiles,
+settings, connectivity, and file
+management, making it ideal for
+web and mobile apps.
+
+The simple, uniform style ensures
+easy integration into any digital
+interface, providing intuitive visual
+cues for user interactions.
+Kinvrs Brand Manual                     Brand Visualisation  28
+
+5.1 Brand
+Imagery
+
+The image combines futuristic and
+digital themes, depicting a blend of
+technology and human interaction.
+
+It features vibrant, neon-lit
+landscapes that suggest virtual
+spaces or advanced technology,
+alongside animated avatars that
+hint at the rise of the metaverse.
+
+A human figure engaged with
+technology symbolises the
+integration of digital tools into
+daily life, while stylised, cybernetic
+faces represent AI and virtual
+reality.
+
+The overall imagery reflects a
+vision of innovation where artificial
+intelligence, robotics, and digital
+environments shape the future of
+Kinvrs.
+06 Brand
+              Application
+Kinvrs Brand Manual                  Brand Application  30
+
+6.1 Design
+Collaterals
+
+The brand touchpoints are painted
+with the brand elements and colours
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+Kinvrs Brand Manual                  Brand Application  31
+
+6.1 Design
+Collaterals
+
+The brand touchpoints are painted
+with the brand elements and colours
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+Kinvrs Brand Manual                  Brand Application                                 32
+
+6.1 Design
+Collaterals
+
+The brand touchpoints are painted
+with the brand elements and colours
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+
+                                                        Arnav Sharma    www.kinvrs.in
+
+                                                        Senior Manager
+Kinvrs Brand Manual                  Brand Application                                                                                                                                               33
+
+6.1 Design
+Collaterals
+
+The brand touchpoints are painted
+with the brand elements and colours
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+
+                                                                                                             Office No: 9, Mountain Bridge CHS,  022 2573 7424                       www.kinvrs.com
+                                                                                                             Powai, JVLR, , Mumbai ­ 400072      info@kinvrs.com
+
+                                                        Office No: 9, Mountain Bridge CHS,  022 2573 7424                                        Arnav Sharma
+                                                        Powai, JVLR, , Mumbai ­ 400072      info@kinvrs.com
+                                                                                                                                                 Senior Manager
+                                                                                            www.kinvrs.com
+                                                                                                                                                 +91 83255 16981
+
+                                                                                                                                                 arnav.@kinvrs.com
+
+                                                                                                                                                 Office No: 9, Mountain Bridge CHS,
+                                                                                                                                                 Powai, JVLR, , Mumbai ­ 400072
+
+                                                                                                                                                 www.kinvrs.com
+Kinvrs Brand Manual                  Brand Application  34
+
+6.1 Design
+Collaterals - App icon
+
+The brand touchpoints are painted
+with the brand elements and colours
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+Kinvrs Brand Manual                  Brand Application                                                                                                      35
+
+6.1 Design                                                                                                                                      kinvrs.com
+Collaterals - Banner
+                                                        DESIGNED
+The brand touchpoints are painted                       TO CONNECT.
+with the brand elements and colours                     BUILT TO CREATE.
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+Kinvrs Brand Manual                  Brand Application                                                                                                                                                                          36
+
+6.1 Design                                                                                                                                                              ARCHITECTS
+Collaterals - Posters                                                                                                                                                   OF
+
+The brand touchpoints are painted
+with the brand elements and colours
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+
+                                     UNLOCKING THE DIGITAL                                                       THE SQUARE                                             POSSIBILITY.
+                                     WORLD, ONE SQUARE                                                           THAT
+                                     AT A TIME.                                                                  CONNECTS                                                                                                               kinvrs.com
+                                                                                                                 WORLDS.
+                                                                                                     kinvrs.com
+                                                                                                                                                            kinvrs.com
+Kinvrs Brand Manual                  Brand Application                                                                        37
+
+6.1 Design                                Kinvrs        Kinvrs                  Kinvrs
+Collaterals - Social media
+                                     ENTER.                     kinvrs.com  ARCHITECTS
+The brand touchpoints are painted    EXPAND.                                OF
+with the brand elements and colours  EVOLVE.                                POSSIBILITY.
+to create a sense of belonging and
+establish consistency.
+You can also use the created
+pattern subtly.
+The simpler and cleaner approach
+makes the brand collaterals look
+mature and standard.
+Thank You!
+

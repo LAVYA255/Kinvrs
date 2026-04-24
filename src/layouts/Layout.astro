@@ -1,0 +1,41 @@
+---
+import '../styles/global.css';
+import SmoothScroll from '../components/react/SmoothScroll';
+import ScrollReveal from '../components/react/ScrollReveal';
+interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = 'Kinvrs — Architects of Possibility',
+  description = 'Kinvrs builds future-ready tech infrastructure that powers play, creation, connection, and beyond. A Krafton India brand.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#040223" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+  </head>
+  <body>
+    <SmoothScroll client:idle />
+    <ScrollReveal client:idle />
+    <slot />
+  </body>
+</html>

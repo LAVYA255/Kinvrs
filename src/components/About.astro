@@ -1,0 +1,50 @@
+---
+---
+
+<section id="about" class="relative pt-16 pb-32 overflow-hidden">
+  <div class="absolute inset-0 bg-grid bg-grid-fade opacity-40"></div>
+  <div class="container-k relative">
+    <div class="grid md:grid-cols-12 gap-12">
+      <div class="md:col-span-5">
+        <div class="chip mb-6">
+          <span class="w-1.5 h-1.5 rounded-full bg-magenta"></span>
+          About Kinvrs
+        </div>
+        <h2 class="heading-lg text-white" data-reveal="up">
+          The <span class="text-gradient">Creative</span><br/>Voyager.
+        </h2>
+      </div>
+
+      <div class="md:col-span-7 space-y-6 text-lg text-white/70 leading-relaxed font-light">
+        <p>
+          Across today's digital world, ideas move fast and possibilities expand by the minute.
+          Creators, teams and communities look for spaces where imagination can grow and
+          technology quietly supports their ambition.
+        </p>
+        <p>
+          This is where <span class="text-white font-medium">Kinvrs</span> steps in — turning complex
+          infrastructure into something intuitive, reliable and full of creative potential.
+        </p>
+        <p class="text-white/90 text-xl italic font-light border-l-2 border-electric pl-6">
+          "Boldly crafting tech infrastructure that powers play, creation,
+          connection, and beyond."
+        </p>
+
+        {/* Personality traits */}
+        <div class="grid grid-cols-2 gap-3 pt-6" data-reveal-stagger>
+          {[
+            ['Imaginative', 'future-focused'],
+            ['Curious', 'exploratory'],
+            ['Craft-driven', 'precise'],
+            ['Bold', 'grounded'],
+          ].map(([a, b]) => (
+            <div class="glass p-4">
+              <div class="text-white font-semibold">{a}</div>
+              <div class="text-sm text-white/50">{b}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+---
+interface Props {
+  variant?: 'mark' | 'full' | 'white' | 'black' | 'mark-white' | 'mark-black';
+  class?: string;
+  /** Responsive size bucket — 'sm' (nav), 'md' (body), 'lg' (hero). Affects srcset. */
+  size?: 'sm' | 'md' | 'lg';
+}
+const { variant = 'white', class: className = '', size = 'sm' } = Astro.props;
+
+const isMark = variant.startsWith('mark');
+const isWhite = variant === 'white' || variant === 'mark-white';
+
+// For white variants, use the BLACK source + CSS filter (inverts cleanly)
+const base = isMark
+  ? (isWhite ? 'mark-black' : variant === 'mark' ? 'mark-color' : 'mark-black')
+  : (isWhite ? 'kinvrs-black' : variant === 'black' ? 'kinvrs-black' : 'kinvrs-color');
+
+const widths = isMark ? [128, 256, 512] : [320, 640, 960];
+const srcset = widths.map((w) => `/logos/${base}-${w}w.png ${w}w`).join(', ');
+
+// Intrinsic dims for aspect preservation
+const intrinsic = isMark ? { w: 512, h: 517 } : { w: 960, h: 166 };
+
+// Sensible default sizes hint
+const sizesAttr = size === 'sm' ? '120px' : size === 'md' ? '240px' : '480px';
+
+const filterClass = isWhite ? 'logo-white' : '';
+---
+
+<img
+  src={`/logos/${base}-${widths[1]}w.png`}
+  srcset={srcset}
+  sizes={sizesAttr}
+  width={intrinsic.w}
+  height={intrinsic.h}
+  alt="Kinvrs"
+  class={`${className} ${filterClass}`}
+  loading="eager"
+  decoding="async"
+/>
