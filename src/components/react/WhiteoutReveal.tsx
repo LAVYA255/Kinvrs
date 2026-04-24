@@ -165,7 +165,7 @@ export default function WhiteoutReveal() {
       tl.to(bigDiamond || {}, {
         scale: 50,
         rotation: '+=180',
-        backgroundColor: '#040223',
+        backgroundColor: '#26374A',
         ease: 'power3.in',
         duration: wipeDur * 0.75,
       }, wipeAt)
@@ -174,7 +174,7 @@ export default function WhiteoutReveal() {
           ease: 'power2.in',
           duration: wipeDur * 0.5,
         }, wipeAt)
-        .to(section, { backgroundColor: '#040223', duration: wipeDur * 0.3, ease: 'none' }, wipeAt + wipeDur * 0.4)
+        .to(section, { backgroundColor: '#26374A', duration: wipeDur * 0.3, ease: 'none' }, wipeAt + wipeDur * 0.4)
         .to(inkwipe || {}, { opacity: 1, duration: wipeDur * 0.3, ease: 'none' }, wipeAt + wipeDur * 0.4);
     }, section);
 
@@ -209,9 +209,17 @@ export default function WhiteoutReveal() {
         {/* Big color diamond — anchor on the right, becomes the dark wipe at the end */}
         <div className="absolute top-1/2 right-[12%] -translate-y-1/2 pointer-events-none z-0">
           <div
-            className="wo-big-diamond w-40 h-40 md:w-60 md:h-60 will-change-transform"
+            className="wo-big-diamond w-40 h-40 md:w-60 md:h-60 will-change-transform flex items-center justify-center overflow-hidden"
             style={{ backgroundColor: '#4207C5' }}
-          ></div>
+          >
+            <img
+              src="/logos/mark-black.png"
+              alt=""
+              className="w-3/5 h-3/5 object-contain pointer-events-none select-none"
+              style={{ filter: 'brightness(0) invert(1)', opacity: 0.85, mixBlendMode: 'overlay' }}
+              decoding="async"
+            />
+          </div>
         </div>
 
         {/* Titles */}
@@ -242,7 +250,7 @@ export default function WhiteoutReveal() {
         </div>
 
         {/* Dark ink wipe for hand-off */}
-        <div className="wo-inkwipe absolute inset-0 pointer-events-none z-20" style={{ opacity: 0, backgroundColor: '#040223' }}></div>
+        <div className="wo-inkwipe absolute inset-0 pointer-events-none z-20" style={{ opacity: 0, backgroundColor: '#26374A' }}></div>
       </div>
     </section>
   );
